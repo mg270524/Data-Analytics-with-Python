@@ -2,6 +2,11 @@
 
 1. Basic Dataframe Operations
    - Create a data frame using a dictionary
+     
+        ```Python
+        import pandas as pd
+
+        ```
    - Display the first five rows of the data frame
    - Retrieve the shape, column names, and data types of the data frame
    - Rename one of the columns in the data frame
