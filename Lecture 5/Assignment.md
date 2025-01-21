@@ -4,13 +4,39 @@
    - Create a data frame using a dictionary
      
         ```Python
+        
         import pandas as pd
+        dict = {
+             'Month': ['Jan','Feb','Mar','Apr','May','June','July','Aug','Sept','Oct','Nov','Dec'],
+             'Days': [31,28,31,30,31,30,31,31,30,31,30,31]
+        }
+        df = pd.DataFrame(dict)
 
         ```
    - Display the first five rows of the data frame
+     ```Python
+     
+        df.head(5)
+     
+     ```
    - Retrieve the shape, column names, and data types of the data frame
+     ```Python
+     
+        df.columns
+     
+     ```
    - Rename one of the columns in the data frame
+     ```Python
+     
+        df.rename(columns={'Days' : 'No. of days'}, inplace=True)
+     
+     ```
    - Add an extra column
+     ```Python
+     
+        df['No. of Mondays'] = [4,4,5,4,4,5,4,4,5,4,4,5]
+     
+     ```
 
 2. Data Selection
    - All rows where a specific column has a value greater than a given number.
