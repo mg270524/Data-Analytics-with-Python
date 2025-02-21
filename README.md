@@ -1,10 +1,8 @@
 <img src="Data_Analytics_with_Python.png">
 
 ## About
-This Github repository contains all the lecture notes, assignments, and many more.
-I created this repo so that it would help me to review the stuff later on and aslo 
-to keep a proper documentation. I am making this public because I believe that anyone
-taking this course will surely find this helpful. All the best.
+
+
 
 ## Table of Contents
 
